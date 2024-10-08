@@ -28,12 +28,5 @@ public class Cavallo extends Thread {
     }
 
 
-  
-
-    @Override
-
-    public String toString(){
-        return "Cavallo n: " + identificativo;
-    }
 
 }
