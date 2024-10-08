@@ -23,16 +23,12 @@ public class Cavallo extends Thread {
         }
 
 
-        fine();
+        Classifica.fine(this.identificativo);
         
     }
 
 
-    private synchronized void fine(){
-
-     Main.classifica.add(this);
-
-    }
+  
 
     @Override
 
